@@ -1,0 +1,6 @@
+# Maven
+target/
+dist/
+
+# Unit test reports
+TEST*.xml
