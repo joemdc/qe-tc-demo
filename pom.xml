@@ -27,14 +27,14 @@
             <artifactId>framework</artifactId>
             <scope>system</scope>
             <version>1.0</version>
-            <systemPath>${basedir}/libs/ACOE_SeleniumHybridFramework_Bootcamp.jar</systemPath>
+            <systemPath>${basedir}/bin/ACOE_SeleniumHybridFramework_Bootcamp.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>Fillo</groupId>
             <artifactId>fillo</artifactId>
             <scope>system</scope>
             <version>1.22</version>
-            <systemPath>${basedir}/libs/Fillo-1.9.jar</systemPath>
+            <systemPath>${basedir}/bin/Fillo-1.9.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
