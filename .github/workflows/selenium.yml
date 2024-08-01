@@ -43,8 +43,8 @@ jobs:
 
     - name: Install local JAR files into Maven repository
       run: |
-        mvn install:install-file -Dfile=libs/Fillo-1.9.jar -DgroupId=Fillo -DartifactId=fillo -Dversion=1.22 -Dpackaging=jar
-        mvn install:install-file -Dfile=libs/ACOE_SeleniumHybridFramework_Bootcamp.jar -DgroupId=Framework -DartifactId=framework -Dversion=1.0 -Dpackaging=jar
+        mvn install:install-file -Dfile=bin/Fillo-1.9.jar -DgroupId=Fillo -DartifactId=fillo -Dversion=1.22 -Dpackaging=jar
+        mvn install:install-file -Dfile=bin/ACOE_SeleniumHybridFramework_Bootcamp.jar -DgroupId=Framework -DartifactId=framework -Dversion=1.0 -Dpackaging=jar
 
     - name: Make ChromeDriver executable
       run: chmod +x src/main/resources/webdriver/chromedriver.exe
