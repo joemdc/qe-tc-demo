@@ -3,6 +3,6 @@ target/
 dist/
 
 # Test reports
-**/*.xml
 **/*.html
 **/test-output
+**/reports
