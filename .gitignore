@@ -2,5 +2,7 @@
 target/
 dist/
 
-# Unit test reports
-TEST*.xml
+# Test reports
+**/*.html
+**/test-output
+**/reports
