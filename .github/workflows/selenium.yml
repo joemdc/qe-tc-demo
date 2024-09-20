@@ -60,4 +60,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: build-artifacts
-        path: target/**
+        path: src/test/resources/reports/consolidated/**
